@@ -1,0 +1,73 @@
+/*Students:
+1]Vilas Desai  -  200522471
+2]Udaykumar Patel  -  200522548	
+3]Bishnu Bohora  -  200519767
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0b0b0c9;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: red;
+    font-family: cursive;
+  }
+  input[type="text"] {
+    width: 70%;
+    padding: 8px; 
+  }
+  button {
+    padding: 8px;
+    background-color: #007BFF;
+    color: #fff;
+    border: solid 1px lightgreen;
+    cursor: pointer;
+  }
+  ul {
+    list-style: none;
+    padding: 0.5;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.2em;
+  }
+  li.checked {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  button.deleteBtn {
+    background-color: #dc3545;
+  }
+  button.deleteBtn, button.deleteBtn:hover {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  li.checked {
+    text-decoration: line-through;
+    color: #ccc;
+    background-color: #dff0d8; /* Light green background for checked items */
+    transition: background-color 0.3s;
+    font-size: 1em;
+  }
+  li.deleted {
+    text-decoration: line-through;
+    color: #ccc;
+    background-color: #f8d7da; /* Light red background for deleted items */
+    transition: opacity 0.3s, height 0.3s;
+    opacity: 0;
+    height: 0;
+  }
